@@ -1,5 +1,5 @@
 <script>
-  function fup() {
+  window.fup = () => {
     console.info(`Hey! I am FUP.`);
     var _fup_isValid = true;
     var _fup_init = null;
